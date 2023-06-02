@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Plant Store</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <%- include('base'); -%>
+
+        <section class="categories" id="categories">
+            <h1 class="heading"><span> Product</span> categories </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/img-24.jpg" alt="">
+                        <div class="icons">
+                            <a href="/plants">Plants</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <div class="image">
+                        <img src="images/flowerplants.jpg" alt="">
+                        <div class="icons">
+                            <a href="/flowers">Flower plants</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/bouquet.jpg" alt="">
+                        <div class="icons">
+                            <a href="/bouquet">Bouquets</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/mini1.jpeg" alt="">
+                        <div class="icons">
+                            <a href="/miniature">miniature plants</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="icons-container">
+            <div class="icons">
+                <img src="images/icon-1.png" alt="">
+                <div class="info">
+                    <h3>Free Delivery</h3>
+                    <span>On all orders</span>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="images/icon-2.png" alt="">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>Moneyback Guaranteed</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/icon-3.png" alt="">
+                <div class="info">
+                    <h3>offers</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/icon-4.png" alt="">
+                <div class="info">
+                    <h3>secure payments</h3>
+                    <span>Through online banking</span>
+                </div>
+            </div>           
+        </section>
+
+        <%- include('footer'); -%>
+    </body>
+</html>

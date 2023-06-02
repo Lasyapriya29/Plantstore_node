@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Plant Store</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <%- include('base'); -%>
+        <section class="contact" id="contact">
+            
+
+            <h1 class="heading">Reg<span>ister</span></h1>
+            
+            <div class="row">
+                <img src="images/login.jpeg" alt="">
+                
+                <form action="/register" method="post">
+            
+                    <div class="inputBox">
+                        <input type="text" name="name" required>
+                        <label>name</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required>
+                        <label>email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" name="number" required>
+                        <label>phone number</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" required>
+                        <label>password</label>
+                    </div>
+            
+                    <input type="submit" value="Register" class="btn">
+
+                    <p>Already a user? <a href="/login">Login</a></p>
+            
+                </form>
+            
+            </div>
+            
+            </section>
+
+            <%- include('footer'); -%>
+
+    </body>
+</html>

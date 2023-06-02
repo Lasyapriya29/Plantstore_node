@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Plant Store</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <%- include('base'); -%>
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>about </span>us</h1>
+            <div class="row">
+                <div class="video-container">
+                    <video src="videos/video4.mp4" loop autoplay muted></video>
+                    <h3>best sellers</h3>
+                </div>
+                <div class="content">
+                    <h3>who are we?</h3>
+                    <p>We are fresh plants and flower sellers.
+                        Having plants in our homes or in our offices doesn't just look good,
+                        it also boosts our mood, makes us more productive, and cleans the air 
+                        around us by absorbing toxins. Most of us being urban dwellers spending
+                        their days in apartments with limited access to parks and ecological 
+                        reserves, have no way of feeling close to nature and experiencing
+                        the benefits of being around plants.
+                    </p>
+                    <p>
+                        So here, we choose different vendors 
+                        from different areas with wide variety of plants and flowers,
+                        sell them through our website and delivering the product 
+                        to the customers at their door step.These will improve the sales of small vendors and also
+                        make customers view a wide range of collection.</p>
+                    <a href="/categories" class="shop">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="icons">
+                <img src="images/icon-1.png" alt="">
+                <div class="info">
+                    <h3>Free Delivery</h3>
+                    <span>On all orders</span>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="images/icon-2.png" alt="">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>Moneyback Guaranteed</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/icon-3.png" alt="">
+                <div class="info">
+                    <h3>offers</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/icon-4.png" alt="">
+                <div class="info">
+                    <h3>secure payments</h3>
+                    <span>Through online banking</span>
+                </div>
+            </div>           
+        </section>
+        <%- include('footer'); -%>
+    </body>
+</html>
